@@ -1,0 +1,89 @@
+
+.btn-crt{
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 4px rgba(0, 0, 0, 0.2);
+    background-color: #4d908e;
+    color: white;
+    opacity: 0.8;
+    padding: 15px 45px;
+    margin: 45px 45px;
+    float: center;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Georama', sans-serif;
+}
+
+.btn-cr:hover {
+  background-color: #555;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-family: 'Georama', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-shadow: 4px 4px #e2e2df;
+}
+
+form{
+  width: 40%;
+  padding: 12px;
+  box-sizing: border-box;
+  float: center;
+  display: inline-block;
+  margin-left: 460px;
+  margin-top: 260px;
+  padding: 40px;
+}
+
+.column {
+  float: center;
+  width: 53.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-left: 30px;
+  font-family: 'Georama', sans-serif;
+}
+
+.title {
+  color: grey;
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #4d908e;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Georama', sans-serif;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
